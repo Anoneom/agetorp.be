@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Johannes Agetorp — Craftsman &amp; maker</title>
+<meta name="description" content="Johannes Agetorp — craftsman and maker in Halle, Belgium. CNC woodwork, carpentry and product development.">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#f6efe6;--card:#fffaf3;--fg:#2a1f16;--muted:#7a6a5a;--line:#e3d5c3;--accent:#b5652b;--accent2:#3f6b5a}
+@media (prefers-color-scheme:dark){:root{--bg:#17120e;--card:#211a14;--fg:#f1e7da;--muted:#a8998a;--line:#3a2f25;--accent:#e08a4a;--accent2:#7fb39c}}
+*{box-sizing:border-box;margin:0}
+html,body{min-height:100%}
+body{background:radial-gradient(1200px 600px at 85% -10%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 60%),radial-gradient(900px 500px at -10% 110%,color-mix(in srgb,var(--accent2) 20%,transparent),transparent 60%),var(--bg);color:var(--fg);font:400 1.0625rem/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;display:flex;flex-direction:column;min-height:100vh}
+main{flex:1;display:flex;align-items:center;padding:3rem 1.5rem}
+.card{max-width:58rem;margin:0 auto;width:100%;display:grid;grid-template-columns:1.1fr 1fr;gap:0;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 20px 50px -25px rgba(60,35,15,.35)}
+.photo{min-height:22rem;background:linear-gradient(135deg,#c98a52,#8a4f24 55%,#3f6b5a);background-size:cover;background-position:center}
+.photo.has-img{background-image:url("photo.jpg")}
+.text{padding:2.75rem 2.5rem;display:flex;flex-direction:column;justify-content:center}
+h1{font:600 clamp(2rem,5vw,2.9rem)/1.1 ui-serif,Georgia,serif;letter-spacing:-.01em}
+.rule{width:3rem;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));margin:1.25rem 0}
+.lead{font-size:1.15rem}
+.loc{color:var(--muted);margin-top:.5rem}
+.contact{margin-top:2rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;transition:transform .15s,background .2s}
+.btn:hover,.btn:focus-visible{background:var(--accent2);transform:translateY(-1px);outline:none}
+footer{padding:1.5rem;text-align:center;font-size:.85rem;color:var(--muted)}
+@media (max-width:700px){.card{grid-template-columns:1fr}.photo{min-height:14rem}.text{padding:2rem 1.5rem}}
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <div class="photo" role="img" aria-label="Workshop"></div>
+    <div class="text">
+      <h1>Johannes Agetorp</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lead">Craftsman &amp; maker — CNC woodwork, carpentry and product development.</p>
+      <p class="loc">Based in Halle, Belgium.</p>
+      <p class="contact"><a class="btn" href="mailto:johannes@agetorp.be">johannes@agetorp.be</a></p>
+    </div>
+  </div>
+</main>
+<footer>© 2026 Johannes Agetorp</footer>
+</body>
+</html>
